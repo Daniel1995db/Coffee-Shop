@@ -1,0 +1,67 @@
+
+/*PAGE SECTIONS---------------------*/
+
+.LandingSection{
+	background-image: url('../Images/LandingPage.jpg');
+	background-size: cover;
+	background-position: center;
+	width: 100vw;
+	height: 100vh;
+	color: white;
+}
+.AboutSection{
+	height: 100vh;
+	background-color: #d9ffb3
+}
+.SeasonalsSection{
+	height: 100vh;
+	background-color: #ffccb3
+}
+.BaristasSection{
+	height: 100vh;
+
+}
+.ContactSection{
+	height: 100vh;	
+	background-color: #b3ecff
+}
+
+
+
+
+
+/* LANDING SECTION------------------*/
+.LandingPageName{
+	position: relative;
+	top: 30%;
+	text-align: center;
+	font-size: 4em;
+}
+
+
+/*ABOUT SECTION----------------------*/
+.About{
+	width: 80%;
+	margin: auto;
+	text-align: center;
+}
+.AboutDescription{
+	width: 50%;
+	display: inline-block;
+}
+.AboutImage{
+	background-image: url('../Images/AboutSection.jpg');
+	background-size: cover;
+	background-position: center;
+	width: 500px;
+	height: 500px;
+	width: 505;
+	display: inline-block;
+}
+
+
+/*SEASONALS SECTION------------------*/
+
+
+
+/*CONTACT SECTION--------------------*/
