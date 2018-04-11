@@ -7,5 +7,8 @@
 	color: white;
 }
 .LandingPageName{
-	top: -50%;
+	position: relative;
+	top: 30%;
+	text-align: center;
+	font-size: 4em;
 }

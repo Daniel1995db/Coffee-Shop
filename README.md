@@ -2,7 +2,7 @@
 
 This is a Template for a New York City Coffee Shop
 
-This is mostly used to showcase some of my design ideas and inspirations
+This is mostly used to showcase some of my design ideas and inspirations for a single paged web app with a scroll-to-element nav.
 
 This is a Front End Based Project
 
