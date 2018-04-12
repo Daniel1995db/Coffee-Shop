@@ -8,7 +8,8 @@ h1, h2, h3, h4, h5, h6, p{
 	text-align: center
 }
 #ContainerSub{
-	width: 49.5%;
+	width: 50%;
 	margin: 0px;
-	display: inline-block;
+	float: left;
+	position: relative;
 }
