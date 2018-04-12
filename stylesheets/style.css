@@ -40,23 +40,17 @@
 
 
 /*ABOUT SECTION----------------------*/
-.About{
+.AboutDescription{
 	width: 80%;
 	margin: auto;
-	text-align: center;
-}
-.AboutDescription{
-	width: 50%;
-	display: inline-block;
 }
 .AboutImage{
 	background-image: url('../Images/AboutSection.jpg');
 	background-size: cover;
 	background-position: center;
-	width: 500px;
+	width: 100%;
 	height: 500px;
-	width: 505;
-	display: inline-block;
+	
 }
 
 
@@ -65,3 +59,10 @@
 
 
 /*CONTACT SECTION--------------------*/
+
+
+
+
+
+
+
