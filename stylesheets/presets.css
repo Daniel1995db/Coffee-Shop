@@ -5,14 +5,10 @@ h1, h2, h3, h4, h5, h6, p{
 #Container{
 	width: 80%;
 	margin: auto;
-	text-align: center
+	text-align: center;
+	display: block;
 }
-#ContainerSub{
-	width: 50%;
-	margin: 0px;
-	float: left;
-	position: relative;
-}
+
 
 
 
