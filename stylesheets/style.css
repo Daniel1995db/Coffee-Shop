@@ -1,5 +1,5 @@
 
-/*PAGE SECTIONS---------------------*/
+/*PAGE SECTIONS ========================== */
 
 .LandingSection{
 	background-image: url('../Images/LandingPage.jpg');
@@ -30,7 +30,8 @@
 
 
 
-/* LANDING SECTION------------------*/
+/* LANDING SECTION ======================= */
+
 .LandingSectionDescription{
 	position: relative;
 	top: 30%;
@@ -47,7 +48,10 @@
 }
 
 
-/*ABOUT SECTION----------------------*/
+
+
+/*ABOUT SECTION ========================== */
+
 .AboutDescription{
 	width: 80%;
 	margin: auto;
@@ -63,11 +67,28 @@
 }
 
 
-/*SEASONALS SECTION------------------*/
 
 
 
-/*CONTACT SECTION--------------------*/
+
+/*SEASONALS SECTION ====================== */
+
+
+
+
+
+
+
+
+/*CONTACT SECTION ========================= */
+
+
+
+
+
+
+
+
 
 
 
