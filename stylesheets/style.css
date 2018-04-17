@@ -15,8 +15,6 @@
 }
 .AboutSection{
 	font-family: 'Open Sans', sans-serif;
-	height: 100vh;
-	background-color: #d9ffb3;
 	text-align: center;
 }
 .SeasonalsSection{
@@ -66,25 +64,37 @@
 
 /*ABOUT SECTION ========================== */
 
-.AboutDescription{
-	width: 80%;
-	margin: auto;
-	/*font-size: 3em;*/
-
-}
 .AboutImage{
 	background-image: url('../Images/LatteArt.jpg');
 	background-size: cover;
 	background-position: center;
-	width: 400px;
-	height: 400px;	
+	width: 45%;
+	height: 500px;
+	margin: 2.5%;	
+	display: inline-block;
 }
 .DumboImage{
 	background-image: url('../Images/Dumbo.jpg');
 	background-size: cover;
 	background-position: center;
-	width: 400px;
-	height: 400px;	
+	width: 45%;
+	height: 500px;
+	margin: 2.5%;
+	float: left;	
+}
+.AboutDescription{
+	display: inline-block;
+	width: 45%;
+	line-height: 500px;
+	padding: 2.5%;
+	vertical-align: center;
+}
+.AboutDescriptionFloat{
+	float: left;
+	width: 45%;
+	line-height: 500px;
+	padding: 2.5%;
+	vertical-align: center;
 }
 
 
@@ -101,7 +111,27 @@
 
 
 
+
+
+
+
+
+
+/*SEASONALS SECTION ====================== */
+
+
+
+
+
+
+
+
+
+
 /*CONTACT SECTION ========================= */
+
+
+
 
 
 
