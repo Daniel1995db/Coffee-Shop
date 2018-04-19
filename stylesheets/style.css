@@ -29,7 +29,7 @@
 }
 .ContactSection{
 	font-family: 'Open Sans', sans-serif;
-	height: 100vh;	
+	height: 100vh;
 	background-color: #b3ecff
 }
 
@@ -64,37 +64,65 @@
 
 /*ABOUT SECTION ========================== */
 
-.AboutImage{
-	background-image: url('../Images/LatteArt.jpg');
-	background-size: cover;
-	background-position: center;
-	width: 45%;
-	height: 500px;
-	margin: 2.5%;	
-	display: inline-block;
-}
 .DumboImage{
 	background-image: url('../Images/Dumbo.jpg');
 	background-size: cover;
 	background-position: center;
-	width: 45%;
-	height: 500px;
-	margin: 2.5%;
-	float: left;	
-}
-.AboutDescription{
-	display: inline-block;
-	width: 45%;
-	line-height: 500px;
-	padding: 2.5%;
-	vertical-align: center;
-}
-.AboutDescriptionFloat{
+	width: 50%;
+	height: 300px;
 	float: left;
-	width: 45%;
-	line-height: 500px;
-	padding: 2.5%;
+}
+.FavoritesImage{
+	background-image: url('../Images/Coffees.jpg');
+	background-size: cover;
+	background-position: center;
+	width: 50%;
+	height: 300px;
+	display: inline-block;
+}
+.SeasonalsImage{
+	background-image: url('../Images/Seasonals.jpg');
+	background-size: cover;
+	background-position: center;
+	width: 50%;
+	height: 300px;
+	float: left;
+}
+.AmenitiesImage{
+	background-image: url('../Images/Amenities.jpg');
+	background-size: cover;
+	background-position: center;
+	width: 50%;
+	height: 300px;
+	display: inline-block;
+}
+
+
+.AboutDescription1{
+	width: 50%;
+	height: 300px;
+	display: inline-block;
+}
+.AboutDescription2{
+	width: 50%;
+	height: 300px;
+	float: left;
+}
+.AboutDescriptionSub1{
+	display: block;
+	width: 100%;
+	line-height: 200px;
 	vertical-align: center;
+}
+.AboutDescriptionSub2{
+	display: block;
+	width: 100%;
+	height: 100px;
+}
+.AboutDescriptionSub2:hover{
+	font-size: 1.5em;
+	transition-duration: 0.3s;
+	cursor: pointer;
 }
 
 
@@ -129,21 +157,3 @@
 
 
 /*CONTACT SECTION ========================= */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
