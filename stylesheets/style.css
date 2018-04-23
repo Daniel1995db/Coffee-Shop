@@ -29,7 +29,7 @@
 }
 .BaristasSection{
 	font-family: 'Open Sans', sans-serif;
-	height: 100vh;
+
 
 }
 .ContactSection{
@@ -162,47 +162,29 @@
 .FavoriteDescription{
 	height: 72px;
 }
-.WhippedCoffee{
-	background-image: url('../Images/WhippedCoffee.jpg');
+.WhippedCoffee, .CinnamonLatte, .HotChocolate, .CoffeeRoll, .DevilsFoodCake, .Brownie{
 	background-size: cover;
 	background-position: center;
 	width: 100%;
 	height: 300px;
+}
+.WhippedCoffee{
+	background-image: url('../Images/WhippedCoffee.jpg');
 }
 .CinnamonLatte{
 	background-image: url('../Images/CinnamonLatte.jpg');
-	background-size: cover;
-	background-position: center;
-	width: 100%;
-	height: 300px;
 }
 .HotChocolate{
 	background-image: url('../Images/HotChocolate.jpg');
-	background-size: cover;
-	background-position: center;
-	width: 100%;
-	height: 300px;
 }
 .CoffeeRoll{
 	background-image: url('../Images/CinnamonCoffeeRoll.jpg');
-	background-size: cover;
-	background-position: center;
-	width: 100%;
-	height: 300px;
 }
 .DevilsFoodCake{
 	background-image: url('../Images/DevilsFoodCake.jpg');
-	background-size: cover;
-	background-position: center;
-	width: 100%;
-	height: 300px;
 }
 .Brownie{
 	background-image: url('../Images/Brownie.jpg');
-	background-size: cover;
-	background-position: center;
-	width: 100%;
-	height: 300px;
 }
 
 
@@ -225,47 +207,62 @@ margin: 5%;
 height: 350px;
 line-height: 2em;
 }
-.IrishCoffee{
-	background-image: url('../Images/IrishCoffee.jpg');
+.IrishCoffee, .CoffeeWeek, .Thanksgiving, .Christmas{
 	background-position: center;
 	background-size: cover;
 	width: 40%;
 	height: 350px;
 	margin: 5%;
 	float: left;
+}
+.IrishCoffee{
+	background-image: url('../Images/IrishCoffee.jpg');
 }
 .CoffeeWeek{
 	background-image: url('../Images/CoffeeWeek.jpg');
-	background-position: center;
-	background-size: cover;
-	width: 40%;
-	height: 350px;
-	margin: 5%;
-	float: left;
 }
 .Thanksgiving{
 	background-image: url('../Images/Thanksgiving.jpg');
-	background-position: center;
-	background-size: cover;
-	width: 40%;
-	height: 350px;
-	margin: 5%;
-	float: left;
 }
 .Christmas{
 	background-image: url('../Images/Christmas.jpg');
+}
+
+
+/* BARISTAS SECTION ========================== */
+.Barista{
+	width: 100%;
+	padding: 0px;
+	margin: 20px auto;
+	display: block;
+}
+.BaristaDescription{
+	width: 40%;
+	height: 350px;
+	margin: 5%;
+	float: left;
+	line-height: 2em;
+}
+.BaristaImage1, .BaristaImage2, .BaristaImage3,.BaristaImage4{
 	background-position: center;
 	background-size: cover;
 	width: 40%;
 	height: 350px;
 	margin: 5%;
-	float: left;
+	display: inline-block;
 }
-
-
-
-
-
+.BaristaImage1{
+	background-image: url('../Images/MaleBarista.jpeg');
+}
+.BaristaImage2{
+	background-image: url('../Images/FemaleBarista.jpeg');
+}
+.BaristaImage3{
+	background-image: url('../Images/MaleBarista2.jpeg');
+}
+.BaristaImage4{
+	background-image: url('../Images/FemaleBarista2.jpeg');
+}
 
 
 
