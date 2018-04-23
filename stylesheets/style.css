@@ -12,9 +12,6 @@
 	color: white;
 	font-family: 'Open Sans', sans-serif;
 }
-.CoffeeShop{
-	font-family: 'Open Sans', sans-serif;
-}
 .AboutSection{
 	text-align: center;
 }
@@ -174,6 +171,7 @@
 	width: 40%;
 	height: 350px;
 	margin: 5%;
+	/* padding-top: 5%; */
 	float: left;
 	line-height: 2em;
 }
