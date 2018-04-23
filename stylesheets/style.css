@@ -214,7 +214,53 @@
 	color: white;
 	background-color: black;
 }
-
+.SeasonalSection{
+	margin: 20px auto;
+	display: block;
+}
+.SeasonalsDescription{
+display: inline-block;
+width: 40%;
+margin: 5%;
+height: 350px;
+line-height: 2em;
+}
+.IrishCoffee{
+	background-image: url('../Images/IrishCoffee.jpg');
+	background-position: center;
+	background-size: cover;
+	width: 40%;
+	height: 350px;
+	margin: 5%;
+	float: left;
+}
+.CoffeeWeek{
+	background-image: url('../Images/CoffeeWeek.jpg');
+	background-position: center;
+	background-size: cover;
+	width: 40%;
+	height: 350px;
+	margin: 5%;
+	float: left;
+}
+.Thanksgiving{
+	background-image: url('../Images/Thanksgiving.jpg');
+	background-position: center;
+	background-size: cover;
+	width: 40%;
+	height: 350px;
+	margin: 5%;
+	float: left;
+}
+.Christmas{
+	background-image: url('../Images/Christmas.jpg');
+	background-position: center;
+	background-size: cover;
+	width: 40%;
+	height: 350px;
+	margin: 5%;
+	float: left;
+}
 
 
 
