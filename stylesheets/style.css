@@ -26,8 +26,6 @@
 }
 .SeasonalsSection{
 	font-family: 'Open Sans', sans-serif;
-	height: 100vh;
-	background-color: #ffccb3
 }
 .BaristasSection{
 	font-family: 'Open Sans', sans-serif;
@@ -74,12 +72,6 @@
 
 /*ABOUT SECTION ========================== */
 
-.AboutUs{
-	padding: 50px;
-	background-color: black;
-	color: white;
-	/* font-size: 3em; */
-}
 .DumboImage{
 	background-image: url('../Images/Dumbo.jpg');
 	background-size: cover;
@@ -147,19 +139,7 @@
 
 /*FAVORITES SECTION ====================== */
 .Favorites{
-	padding: 50px;
-	text-align: center;
-	color: white;
-	background-color: black;
 	margin-top: -2.75px;
-}
-.FavoritesTitle{
-	margin: 10px auto;
-	text-align: center;
-}
-.FavoritesSubTitle{
-	margin: 0px auto 20px auto;
-	text-align: center;
 }
 .FavoriteTreats{
 	margin: 30px auto;
@@ -227,17 +207,13 @@
 
 
 
-
-
-
-
-
-
-
 /*SEASONALS SECTION ====================== */
-
-
-
+.Seasonals{
+	padding: 50px;
+	text-align: center;
+	color: white;
+	background-color: black;
+}
 
 
 
