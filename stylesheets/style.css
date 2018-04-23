@@ -1,6 +1,8 @@
 
 /*PAGE SECTIONS ========================== */
-
+*{
+	font-family: 'Open Sans', sans-serif;
+}
 .LandingSection{
 	background-image: url('../Images/LandingPage.jpg');
 	background-size: cover;
@@ -14,28 +16,7 @@
 	font-family: 'Open Sans', sans-serif;
 }
 .AboutSection{
-	font-family: 'Open Sans', sans-serif;
 	text-align: center;
-	height: 99%;
-}
-.FavoritesSection{
-	font-family: 'Open Sans', sans-serif;
-}
-.AmenitiesSection{
-	font-family: 'Open Sans', sans-serif;
-}
-.SeasonalsSection{
-	font-family: 'Open Sans', sans-serif;
-}
-.BaristasSection{
-	font-family: 'Open Sans', sans-serif;
-
-
-}
-.ContactSection{
-	font-family: 'Open Sans', sans-serif;
-	height: 100vh;
-	background-color: #b3ecff
 }
 
 /* NAV BAR =============================== */
@@ -132,11 +113,6 @@
 	font-weight: bold;
 }
 
-
-
-
-
-
 /*FAVORITES SECTION ====================== */
 .Favorites{
 	margin-top: -2.75px;
@@ -186,6 +162,45 @@
 .Brownie{
 	background-image: url('../Images/Brownie.jpg');
 }
+
+/* AMENITIES SECTION ==================== */
+
+.AmenitySection{
+	width: 100%;
+	margin: 20px auto;
+	display: block;
+}
+.AmenityDescription{
+	width: 40%;
+	height: 350px;
+	margin: 5%;
+	float: left;
+	line-height: 2em;
+}
+.Bakery, .Seating, .Wifi, .WorkStation, .Events{
+	background-position: center;
+	background-size: cover;
+	width: 40%;
+	height: 350px;
+	margin: 5%;
+	display: inline-block;
+}
+.Bakery{
+	background-image: url('../Images/Bakery.jpg');
+}
+.Seating{
+	background-image: url('../Images/Seats.jpg');
+}
+.Wifi{
+	background-image: url('../Images/Wifi.jpg');
+}
+.WorkStation{
+	background-image: url('../Images/WorkStation.jpg');
+}
+.Events{
+	background-image: url('../Images/LiveMusic.jpg');
+}
+
 
 
 
@@ -240,8 +255,8 @@ line-height: 2em;
 	width: 40%;
 	height: 350px;
 	margin: 5%;
-	float: left;
 	line-height: 2em;
+	display: inline-block;
 }
 .BaristaImage1, .BaristaImage2, .BaristaImage3,.BaristaImage4{
 	background-position: center;
@@ -249,7 +264,7 @@ line-height: 2em;
 	width: 40%;
 	height: 350px;
 	margin: 5%;
-	display: inline-block;
+	float: left;
 }
 .BaristaImage1{
 	background-image: url('../Images/MaleBarista.jpeg');
