@@ -32,7 +32,7 @@
 	font-size: 4em;
 }
 .CoffeeShop{
-	background-image: url('../Images/CoffeeShop.jpg');
+	background-image: url('../Images/CoffeeBar.jpg');
 	background-size: cover;
 	background-position: center;
 	width: 100vw;
@@ -281,7 +281,11 @@ line-height: 2em;
 
 
 
-
-
-
 /*CONTACT SECTION ========================= */
+#map{
+	background-image: url('../Images/Location.png');
+	background-size: cover;
+	background-position: center;
+	width: 400px;
+	height: 400px;
+}
