@@ -287,5 +287,55 @@ line-height: 2em;
 	background-size: cover;
 	background-position: center;
 	width: 400px;
-	height: 400px;
+	height: 585px;
+	float: left;
+	position: relative;
 }
+.ContactFormMessage{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+}
+.ContactForm{
+ 	width: 500px;
+ 	height: 585px;
+	color: white;
+	background-color: black;
+	display: inline-block;
+}
+.ContactFormMessage{
+	text-align: center;
+	padding: 20px;
+	line-height: 1.5em;
+}
+.ContactForm fieldset{
+	margin: 10px auto;
+	text-align: center;
+}
+.ContactForm input{
+	width: 300px;
+	height: 30px;
+	border-radius: 5px;
+	padding: 5px;
+}
+.ContactForm textarea{
+	width: 293px;
+	height: 200px;
+	border-radius: 5px;
+	padding: 10px;
+	resize: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ANIMATIONS ============================== */
