@@ -49,9 +49,17 @@
 	position: relative;
 	top: 65%;
 }
+@media (max-width: 900px){
+ .LandingSectionDescription{
+	 font-size: 2.5em;
+ }
+}
 @media (max-width: 600px){
 	.SeeMore1, .SeeMore2{
-		top: 50%;
+		display: none;
+	}
+	.LandingSectionDescription{
+		font-size: 1.5em;
 	}
 }
 
@@ -146,6 +154,7 @@
 	flex-grow: row;
 	justify-content: space-evenly;
 	align-items: flex-start;
+	flex-wrap: wrap;
 }
 .FavoriteTreat{
 	width: 300px;
@@ -154,6 +163,7 @@
 	/* position: relative; */
 	display: inline-block;
 	align-self: flex-start;
+	margin: 20px;
 }
 .FavoriteName{
 	margin: 10px auto;
@@ -185,6 +195,13 @@
 .Brownie{
 	background-image: url('../Images/Brownie.jpg');
 }
+@media (max-width: 750px){
+	.Favorite{
+		text-align: center;
+	}
+
+}
+
 
 /* AMENITIES SECTION ==================== */
 
@@ -197,7 +214,7 @@
 	width: 40%;
 	height: 300px;
 	margin: 5%;
-	padding-top: 50px;
+	/* padding-top: 50px; */
 	float: left;
 	line-height: 2em;
 }
@@ -224,6 +241,35 @@
 .Events{
 	background-image: url('../Images/LiveMusic.jpg');
 }
+@media (max-width: 900px){
+	.Bakery, .Seating, .Wifi, .WorkStation, .Events{
+		display: block;
+		width: 75%;
+		margin: 10px auto;
+	}
+	.AmenityDescription{
+		display: block;
+		float: none;
+		width: 75%;
+		margin: auto;
+		height: inherit;
+	}
+	.AmenitySection{
+		margin: 50px auto;
+	}
+	.Amenity{
+		margin: 10px auto;
+	}
+}
+@media (max-width: 600px){
+	.Bakery, .Seating, .Wifi, .WorkStation, .Events{
+		width: 100%;
+	}
+	.AmenityDescription{
+		width: 100%;
+		text-align: center;
+	}
+}
 
 
 
@@ -243,8 +289,8 @@
 display: inline-block;
 width: 40%;
 margin: 5%;
-height: 300px;
-padding-top: 50px;
+height: 350px;
+/* padding-top: 50px; */
 line-height: 2em;
 }
 .IrishCoffee, .CoffeeWeek, .Thanksgiving, .Christmas{
@@ -267,7 +313,35 @@ line-height: 2em;
 .Christmas{
 	background-image: url('../Images/Christmas.jpg');
 }
-
+.Date{
+	margin-top: 20px;
+}
+@media (max-width: 900px){
+	.IrishCoffee, .CoffeeWeek, .Thanksgiving, .Christmas{
+		width: 70%;
+		display: block;
+		float: none;
+		margin: 5% auto;
+	}
+	.SeasonalsDescription{
+		width: 70%;
+		display: block;
+		margin: 5% auto;
+		height: inherit;
+	}
+	.SeasonalSection{
+		margin: 60px auto;
+	}
+}
+@media (max-width: 550px){
+	.IrishCoffee, .CoffeeWeek, .Thanksgiving, .Christmas{
+		width: 100%;
+	}
+	.SeasonalsDescription{
+		width: 90%;
+		text-align: center;
+	}
+}
 
 /* BARISTAS SECTION ========================== */
 .Barista{
@@ -303,7 +377,31 @@ line-height: 2em;
 .BaristaImage4{
 	background-image: url('../Images/FemaleBarista2.jpeg');
 }
-
+@media (max-width: 900px){
+	.BaristaImage1, .BaristaImage2, .BaristaImage3,.BaristaImage4 {
+		width: 75%;
+		margin: 5% auto;
+		display: block;
+		float: none;
+	}
+	.BaristaDescription{
+		width: 75%;
+		margin: 5% auto;
+		display: block;
+		height: inherit;
+	}
+	.Barista{
+		margin: 50px auto;
+	}
+}
+@media (max-width: 600px){
+	.BaristaImage1, .BaristaImage2, .BaristaImage3,.BaristaImage4{
+		width: 100%;
+	}
+	.BaristaDescription{
+		width: 100%;
+	}
+}
 
 
 
@@ -422,10 +520,15 @@ line-height: 2em;
 	}
 	.ContactForm{
 		width: 90%;
+		height: 650px;
 		margin: 50px auto;
 	}
 	.ContactForm input, .ContactForm textarea{
 		width: 90%;
+	}
+	.SubmitButton{
+		float: none;
+		margin: auto;
 	}
 }
 
