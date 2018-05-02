@@ -2,9 +2,14 @@
 
 This is a Template for a New York City Coffee Shop
 
-This is mostly used to showcase some of my design ideas and inspirations for a single paged web app with a scroll-to-element navigation bar. 
+This is mostly used to showcase some of my design ideas and inspirations for a single paged web app with a scroll-to-element navigation bar. This repository is mobile responsive and can be accessed on all devices.
 
-<h3>This repository is not mobile friendly and is not finished at the moment</h3>
+<h3>This repository is not finished at the moment</h3>
+```
+Things that still need to be done:
+-Animations
+-Scroll to Element & Nav Bar
+```
 
 <h3>This is a Front End Based Project</h3>
 

@@ -28,6 +28,11 @@ h1, h2, h3, h4, h5, h6, p{
 	margin: 0px auto 20px auto;
 	text-align: center;
 }
+@media (max-width: 800px){
+	.Title, .SubTitle{
+		width: 90%;
+	}
+}
 fieldset{
 	border-style: none;
 }
