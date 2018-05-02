@@ -2,6 +2,8 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+	<!-- <meta name="viewport" content="width=device-width" /> -->
 	<link rel="stylesheet" type="text/css" href="stylesheets/normalize.css">
 	<link rel="stylesheet" type="text/css" href="stylesheets/presets.css">
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300" rel="stylesheet">
@@ -24,13 +26,16 @@
 
 	<div class="LandingSection">
 		<h1 class="LandingSectionDescription">The Coffee Shop</h1>
-		<div class="SeeMore">
+		<div class="SeeMore1">
 			<img src="./Images/SeeMore.png">
 		</div>
 	</div>
 
 	<div class="CoffeeShop">
 		<h1 class="LandingSectionDescription">Mordern. Urban. Culture.</h1>
+		<div class="SeeMore2">
+			<img src="./Images/SeeMore.png">
+		</div>
 	</div>
 
 
@@ -47,12 +52,13 @@
 				<!-- Link to google directions address 'Find Us' -->
 			</div>
 
+			<p class="FavoritesImage"></p>
 			<div class="AboutDescription2">
 				<h1 class="AboutDescriptionSub1">Specialized in your Favorites</h1>
 				<h3 class="AboutDescriptionSub2">Browse Favorites</h3>
 				<!-- link to favorites section -->
 			</div>
-			<p class="FavoritesImage"></p>
+
 
 			<p class="SeasonalsImage"></p>
 			<div class="AboutDescription1">
@@ -61,12 +67,13 @@
 				<!-- Link to Seasonals -->
 			</div>
 
+			<p class="AmenitiesImage"></p>
 			<div class="AboutDescription2">
 				<h1 class="AboutDescriptionSub1">Your Favorite Amenities</h1>
 				<h3 class="AboutDescriptionSub2">Browse Amenities</h3>
 				<!-- link to Amenities section -->
 			</div>
-			<p class="AmenitiesImage"></p>
+
 
 	</div>
 
@@ -322,36 +329,41 @@
 			<h1 class="Title">Dumbo, New York City</h1>
 			<h3 class="SubTitle">Nothing says Brooklyn better than watterfront views and cobblestone streets.</h3>
 
-			<a href="https://www.google.com/maps/place/8+Water+St,+Brooklyn,+NY+11201/@40.7031897,-73.9963212,17z/data=!3m1!4b1!4m5!3m4!1s0x89c25a30bcba925b:0x70fcd12a0695eeda!8m2!3d40.703185!4d-73.994132" target="_blank"><div id="map">
-				<div class="MapOverlay">
-					<h1 class="MapAddress">
-						8 Water Street
+			<div class="FormMap">
+				<a href="https://www.google.com/maps/place/8+Water+St,+Brooklyn,+NY+11201/@40.7031897,-73.9963212,17z/data=!3m1!4b1!4m5!3m4!1s0x89c25a30bcba925b:0x70fcd12a0695eeda!8m2!3d40.703185!4d-73.994132" target="_blank">
+					<div id="map">
+					<div class="MapOverlay">
+						<h1 class="MapAddress">
+							8 Water Street
+							<br>
+							Brooklyn, NY 11201
+						</h1>
+					</div>
+				</div></a>
+
+
+				<form class="ContactForm">
+					<h3 class="ContactFormMessage">
+						Questions? Comments. Concerns.
 						<br>
-						Brooklyn, NY 11201
-					</h1>
-				</div>
-			</div></a>
+						Let us know.
+					</h3>
+					<fieldset class="input">
+						<input type="text" placeholder="Your Name"></input>
+					</fieldset>
+					<fieldset class="input">
+						<input type="email" placeholder="Your Email Address"></input>
+					</fieldset>
+					<fieldset class="input">
+						<input type="text" placeholder="Subject Message"></input>
+					</fieldset>
+					<fieldset class="input">
+						<textarea placeholder="Type your message here..."></textarea>
+					</fieldset>
+					<button type="submit" name="submit" value="submit" class="SubmitButton">Send</button
+				</form>
+			</div>
 
-
-			<form class="ContactForm">
-				<h3 class="ContactFormMessage">
-					Questions? Comments. Concerns.
-					<br>
-					Let us know.
-				</h3>
-				<fieldset>
-					<input type="text" placeholder="Your Name"></input>
-				</fieldset>
-				<fieldset>
-					<input type="email" placeholder="Your Email Address"></input>
-				</fieldset>
-				<fieldset>
-					<input type="text" placeholder="Subject Message"></input>
-				</fieldset>
-				<fieldset>
-					<textarea placeholder="Type your message here..."></textarea>
-				</fieldset>
-			</form>
 	</div>
 
 
