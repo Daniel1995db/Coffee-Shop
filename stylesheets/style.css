@@ -199,7 +199,6 @@
 	.Favorite{
 		text-align: center;
 	}
-
 }
 
 
@@ -529,6 +528,10 @@ line-height: 2em;
 	.SubmitButton{
 		float: none;
 		margin: auto;
+	}
+	.MapAddress{
+		max-width: 100%;
+		left: auto;
 	}
 }
 
