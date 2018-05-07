@@ -9,7 +9,7 @@ This is mostly used to showcase some of my design ideas and inspirations for a S
 ```
 Things that still need to be done:
 -Animations
--Scroll to Element & Nav Bar
+-Scroll to Element Nav Bar
 ```
 
 
@@ -21,11 +21,13 @@ Languages and Libraries Used:
 -HTML5
 -CSS3
 -Javascript
+-PHP
 ```
 
 
 ```
 Features Used:
 -Animations
--Scroll to Element Navigation
+-Scroll to Element
+-Scroll to Element Navigation Bar
 ```
