@@ -1,5 +1,5 @@
 
-// CONTACT FORM
+// CONTACT FORM ===========================================
 var elForm, elButton, elMessage, elFieldset;
 
 document.addEventListener("DOMContentLoaded", function(){
@@ -23,7 +23,7 @@ document.addEventListener("DOMContentLoaded", function(){
   });
 });
 
-// SMOOTH SCROLLING
+// SMOOTH SCROLLING ========================================
 // $('a[href*=#]:not([href=#])').click(function() {
 //     if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'')
 //         || location.hostname == this.hostname) {
@@ -44,4 +44,19 @@ $(document).on('click', 'a[href^="#"]', function (event) {
     $('html, body').animate({
       scrollTop: $($.attr(this, 'href')).offset().top
     }, 1000);
+});
+
+
+
+
+
+// NAV BAR ===============================================
+var elIcon, elNavBar
+document.addEventListener("DOMContentLoaded", function(){
+  elIcon = document.querySelector(".NavBarIcon");
+  elNavBar = document.querySelector(".NavBar");
+  elIcon.addEventListener("click", function(){
+    elNavBar.style.display = "block";
+    elIcon.style.display = "none";
+  });
 });

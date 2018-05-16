@@ -18,6 +18,61 @@
 
 /* NAV BAR =============================== */
 
+.NavBarIcon{
+	position: fixed;
+  width: 40px;
+  height: 60px;
+  right: 20px;
+  top: 5px;
+  z-index: 2;
+}
+.NavBarIcon:hover{
+	cursor: pointer;
+}
+.NavBarIcon:hover span{
+	background: black;
+}
+.NavBarIcon span{
+	display: block;
+ /* position: absolute; */
+ position: relative;
+ margin: 15px auto;
+ height: 2px;
+ width: 100%;
+ background: white;
+ -webkit-box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.4);  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+  -moz-box-shadow:    1px 1px 1px 1px rgba(0, 0, 0, 0.4);  /* Firefox 3.5 - 3.6 */
+  box-shadow:         1px 1px 1px 1px rgba(0, 0, 0, 0.4);
+}
+
+
+.NavBar{
+	width: 100%;
+	height: inherit;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	background-color: black;
+	display: none;
+}
+.NavBar li{
+	list-style-type: none;
+	padding: 10px 0px;
+	color: white;
+}
+@media (max-width: 700px) {
+	.NavBar{
+		flex-direction: column;
+	}
+	.NavBar li{
+		text-align: center;
+		margin: 0px 10px;
+		padding: 10px 0px;
+	}
+}
+
+
+
 
 
 
