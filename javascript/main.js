@@ -1,5 +1,6 @@
 
 // CONTACT FORM ===========================================
+
 var elForm, elButton, elMessage, elFieldset;
 
 document.addEventListener("DOMContentLoaded", function(){
@@ -24,39 +25,38 @@ document.addEventListener("DOMContentLoaded", function(){
 });
 
 // SMOOTH SCROLLING ========================================
-// $('a[href*=#]:not([href=#])').click(function() {
-//     if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'')
-//         || location.hostname == this.hostname) {
-//
-//         var target = $(this.hash);
-//         target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
-//            if (target.length) {
-//              $('html,body').animate({
-//                  scrollTop: target.offset().top
-//             }, 1000);
-//             return false;
-//         }
-//     }
-// });
-$(document).on('click', 'a[href^="#"]', function (event) {
-    event.preventDefault();
+$(document).ready(function(){
+  $(document).on('click', 'a[href^="#"]', function (event) {
+      event.preventDefault();
 
-    $('html, body').animate({
-      scrollTop: $($.attr(this, 'href')).offset().top
-    }, 1000);
+      $('html, body').animate({
+        scrollTop: $($.attr(this, 'href')).offset().top
+      }, 1000);
+  });
 });
 
 
 
 
 
+
 // NAV BAR ===============================================
-var elIcon, elNavBar
+
+var elIcon, elNavBar, elClose
 document.addEventListener("DOMContentLoaded", function(){
   elIcon = document.querySelector(".NavBarIcon");
   elNavBar = document.querySelector(".NavBar");
+  elClose = document.querySelector(".CloseNav");
   elIcon.addEventListener("click", function(){
-    elNavBar.style.display = "block";
+    elNavBar.style.display = "flex";
+    elNavBar.style.transitionDuration = "1s";
     elIcon.style.display = "none";
+    elClose.style.display = "block";
+  });
+  elClose.addEventListener("click", function(){
+    elNavBar.style.display = "none";
+    elClose.style.display = "none";
+    elIcon.style.display = "block";
+
   });
 });

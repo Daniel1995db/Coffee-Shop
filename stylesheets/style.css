@@ -25,6 +25,7 @@
   right: 20px;
   top: 5px;
   z-index: 2;
+	transition-duration: 1s
 }
 .NavBarIcon:hover{
 	cursor: pointer;
@@ -44,15 +45,27 @@
   -moz-box-shadow:    1px 1px 1px 1px rgba(0, 0, 0, 0.4);  /* Firefox 3.5 - 3.6 */
   box-shadow:         1px 1px 1px 1px rgba(0, 0, 0, 0.4);
 }
+.CloseNav{
+	color: white;
+	font-size: 2.5em;
+	position: fixed;
+	top: 0px;
+	right: 20px;
+	z-index: 2;
+	display: none;
+}
+
 
 
 .NavBar{
 	width: 100%;
 	height: inherit;
-	display: flex;
 	flex-direction: row;
 	justify-content: space-evenly;
 	background-color: black;
+	position: fixed;
+	top: 0px;
+	z-index: 1;
 	display: none;
 }
 .NavBar li{
